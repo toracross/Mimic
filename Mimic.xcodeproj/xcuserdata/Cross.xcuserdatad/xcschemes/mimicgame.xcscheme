@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "305D30AD1D53A52A00F4FCE1"
-               BuildableName = "mimicgame.app"
-               BlueprintName = "mimicgame"
-               ReferencedContainer = "container:mimicgame.xcodeproj">
+               BuildableName = "Mimic.app"
+               BlueprintName = "Mimic!?"
+               ReferencedContainer = "container:Mimic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "305D30AD1D53A52A00F4FCE1"
-            BuildableName = "mimicgame.app"
-            BlueprintName = "mimicgame"
-            ReferencedContainer = "container:mimicgame.xcodeproj">
+            BuildableName = "Mimic.app"
+            BlueprintName = "Mimic!?"
+            ReferencedContainer = "container:Mimic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "305D30AD1D53A52A00F4FCE1"
-            BuildableName = "mimicgame.app"
-            BlueprintName = "mimicgame"
-            ReferencedContainer = "container:mimicgame.xcodeproj">
+            BuildableName = "Mimic.app"
+            BlueprintName = "Mimic!?"
+            ReferencedContainer = "container:Mimic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "305D30AD1D53A52A00F4FCE1"
-            BuildableName = "mimicgame.app"
-            BlueprintName = "mimicgame"
-            ReferencedContainer = "container:mimicgame.xcodeproj">
+            BuildableName = "Mimic.app"
+            BlueprintName = "Mimic!?"
+            ReferencedContainer = "container:Mimic.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

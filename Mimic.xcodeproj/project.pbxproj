@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30261FBE1D54680A00EA5C19 /* bgTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30261FBB1D54680A00EA5C19 /* bgTheme.mp3 */; };
+		30261FBF1D54680A00EA5C19 /* chestOpened.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30261FBC1D54680A00EA5C19 /* chestOpened.wav */; };
+		30261FC01D54680A00EA5C19 /* mimicSpawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30261FBD1D54680A00EA5C19 /* mimicSpawn.wav */; };
 		305D30B21D53A52A00F4FCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D30B11D53A52A00F4FCE1 /* AppDelegate.swift */; };
 		305D30B41D53A52A00F4FCE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305D30B31D53A52A00F4FCE1 /* ViewController.swift */; };
 		305D30B71D53A52A00F4FCE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305D30B51D53A52A00F4FCE1 /* Main.storyboard */; };
 		305D30B91D53A52A00F4FCE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305D30B81D53A52A00F4FCE1 /* Assets.xcassets */; };
 		305D30BC1D53A52A00F4FCE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305D30BA1D53A52A00F4FCE1 /* LaunchScreen.storyboard */; };
+		305D30C41D53B4AD00F4FCE1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305D30C31D53B4AD00F4FCE1 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		305D30AE1D53A52A00F4FCE1 /* mimicgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mimicgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30261FBB1D54680A00EA5C19 /* bgTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgTheme.mp3; sourceTree = "<group>"; };
+		30261FBC1D54680A00EA5C19 /* chestOpened.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chestOpened.wav; sourceTree = "<group>"; };
+		30261FBD1D54680A00EA5C19 /* mimicSpawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mimicSpawn.wav; sourceTree = "<group>"; };
+		305D30AE1D53A52A00F4FCE1 /* Mimic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mimic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		305D30B11D53A52A00F4FCE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		305D30B31D53A52A00F4FCE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		305D30B61D53A52A00F4FCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		305D30B81D53A52A00F4FCE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		305D30BB1D53A52A00F4FCE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		305D30BD1D53A52A00F4FCE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305D30C31D53B4AD00F4FCE1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		305606101D5A3EFA00218C09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				305D30B31D53A52A00F4FCE1 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		305606111D5A3EFF00218C09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				305D30BA1D53A52A00F4FCE1 /* LaunchScreen.storyboard */,
+				305D30B51D53A52A00F4FCE1 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		305606121D5A3F0200218C09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				305D30B11D53A52A00F4FCE1 /* AppDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		305606131D5A3F1200218C09 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				305D30C31D53B4AD00F4FCE1 /* Minecraft.ttf */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		305D30A51D53A52900F4FCE1 = {
 			isa = PBXGroup;
 			children = (
@@ -46,7 +87,7 @@
 		305D30AF1D53A52A00F4FCE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				305D30AE1D53A52A00F4FCE1 /* mimicgame.app */,
+				305D30AE1D53A52A00F4FCE1 /* Mimic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,11 +95,14 @@
 		305D30B01D53A52A00F4FCE1 /* mimicgame */ = {
 			isa = PBXGroup;
 			children = (
-				305D30B11D53A52A00F4FCE1 /* AppDelegate.swift */,
-				305D30B31D53A52A00F4FCE1 /* ViewController.swift */,
-				305D30B51D53A52A00F4FCE1 /* Main.storyboard */,
+				305606131D5A3F1200218C09 /* Util */,
+				305606121D5A3F0200218C09 /* Model */,
+				305606111D5A3EFF00218C09 /* View */,
+				305606101D5A3EFA00218C09 /* Controller */,
+				30261FBB1D54680A00EA5C19 /* bgTheme.mp3 */,
+				30261FBC1D54680A00EA5C19 /* chestOpened.wav */,
+				30261FBD1D54680A00EA5C19 /* mimicSpawn.wav */,
 				305D30B81D53A52A00F4FCE1 /* Assets.xcassets */,
-				305D30BA1D53A52A00F4FCE1 /* LaunchScreen.storyboard */,
 				305D30BD1D53A52A00F4FCE1 /* Info.plist */,
 			);
 			path = mimicgame;
@@ -67,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		305D30AD1D53A52A00F4FCE1 /* mimicgame */ = {
+		305D30AD1D53A52A00F4FCE1 /* Mimic!? */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 305D30C01D53A52A00F4FCE1 /* Build configuration list for PBXNativeTarget "mimicgame" */;
+			buildConfigurationList = 305D30C01D53A52A00F4FCE1 /* Build configuration list for PBXNativeTarget "Mimic!?" */;
 			buildPhases = (
 				305D30AA1D53A52A00F4FCE1 /* Sources */,
 				305D30AB1D53A52A00F4FCE1 /* Frameworks */,
@@ -79,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = mimicgame;
+			name = "Mimic!?";
 			productName = mimicgame;
-			productReference = 305D30AE1D53A52A00F4FCE1 /* mimicgame.app */;
+			productReference = 305D30AE1D53A52A00F4FCE1 /* Mimic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,15 +135,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Tora Cross";
 				TargetAttributes = {
 					305D30AD1D53A52A00F4FCE1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NG6UM76K5M;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = 305D30A91D53A52900F4FCE1 /* Build configuration list for PBXProject "mimicgame" */;
+			buildConfigurationList = 305D30A91D53A52900F4FCE1 /* Build configuration list for PBXProject "Mimic" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				305D30AD1D53A52A00F4FCE1 /* mimicgame */,
+				305D30AD1D53A52A00F4FCE1 /* Mimic!? */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				305D30BC1D53A52A00F4FCE1 /* LaunchScreen.storyboard in Resources */,
+				30261FBE1D54680A00EA5C19 /* bgTheme.mp3 in Resources */,
 				305D30B91D53A52A00F4FCE1 /* Assets.xcassets in Resources */,
+				305D30C41D53B4AD00F4FCE1 /* Minecraft.ttf in Resources */,
 				305D30B71D53A52A00F4FCE1 /* Main.storyboard in Resources */,
+				30261FBF1D54680A00EA5C19 /* chestOpened.wav in Resources */,
+				30261FC01D54680A00EA5C19 /* mimicSpawn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +226,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -221,8 +273,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,6 +295,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -249,10 +304,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mimicgame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toracross.mimicgame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mimic;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -260,17 +318,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mimicgame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toracross.mimicgame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mimic;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		305D30A91D53A52900F4FCE1 /* Build configuration list for PBXProject "mimicgame" */ = {
+		305D30A91D53A52900F4FCE1 /* Build configuration list for PBXProject "Mimic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				305D30BE1D53A52A00F4FCE1 /* Debug */,
@@ -279,13 +340,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		305D30C01D53A52A00F4FCE1 /* Build configuration list for PBXNativeTarget "mimicgame" */ = {
+		305D30C01D53A52A00F4FCE1 /* Build configuration list for PBXNativeTarget "Mimic!?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				305D30C11D53A52A00F4FCE1 /* Debug */,
 				305D30C21D53A52A00F4FCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
